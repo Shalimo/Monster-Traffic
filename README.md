@@ -4,6 +4,7 @@
 Язык программирования: C#
 
 Среда разработки: [Unity](https://unity.com/),  [Visual Studio](https://visualstudio.microsoft.com/ru/?rr=https%3A%2F%2Fwww.google.com%2F)  
-                 
+
+Платформа: Android
                   
                   
