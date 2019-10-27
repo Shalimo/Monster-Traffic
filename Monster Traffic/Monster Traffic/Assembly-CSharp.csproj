@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B955C1BE-CCBC-9F34-C902-3EA6AF499F8C}</ProjectGuid>
+    <ProjectGuid>{029C7841-7C26-B6A9-5120-48D26FE69965}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,20 +54,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\MoveObjects.cs" />
+     <Compile Include="Assets\Scripts\MoveTrack.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -268,13 +269,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/User/Desktop/Traffic Monster/Traffic Monster/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
