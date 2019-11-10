@@ -318,9 +318,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4353972167979376}
   - component: {fileID: 7634482496086240298}
+  - component: {fileID: 2294473568393049853}
   m_Layer: 0
   m_Name: Bus_1
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -333,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959030373088092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.141, y: 0, z: 0.267}
   m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_Children:
   - {fileID: 4230925047676480}
@@ -357,6 +358,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!65 &2294473568393049853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959030373088092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0885623, y: 1.3230966, z: 4.1263113}
+  m_Center: {x: 0.022240808, y: 0.57960105, z: -0.09257463}
 --- !u!1 &1984030507710860
 GameObject:
   m_ObjectHideFlags: 0
