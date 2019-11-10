@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\MoveTrack.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\SpawnCars.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/User/Documents/GitHub/Monster-Traffic/Monster Traffic/Monster Traffic/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
