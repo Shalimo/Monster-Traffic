@@ -24,7 +24,7 @@ public class SpawnCars : MonoBehaviour
                 new Vector3(positions[Random.Range(0, 4)], 6f, 0),
                 Quaternion.Euler(new Vector3(90, 180, 0))
                 );
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(0.7f);
         }
     }
 
