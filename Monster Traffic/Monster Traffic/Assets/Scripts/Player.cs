@@ -16,10 +16,14 @@ public class Player : MonoBehaviour
     {
         //Vector3 pos = Camera.main.ScreenWoWorldPoint(Input.GetTouch(0).position);
         //transform.position = new Vector3(pos.x, transform.position.y, transform.position.z);
-        float hor = Input.GetAxisRaw("Horizontal");
+        //float hor = Input.GetAxisRaw("Horizontal");
 
-        Vector3 dir = new Vector3(hor, 0, 0);
-        transform.Translate(dir.normalized * Time.deltaTime * speed);
+        //Vector3 dir = new Vector3(hor, 0, 0);
+        //transform.Translate(dir.normalized * Time.deltaTime * speed);
+
+        position.x += Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        position.x = Mathf.Clamp(position.x, -2.2f, 2.2f);
+        transform.position = position;
 
         float temp = Input.acceleration.x;
         position.x += temp * speed * Time.deltaTime;
