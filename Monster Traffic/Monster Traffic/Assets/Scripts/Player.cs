@@ -6,9 +6,11 @@ public class Player : MonoBehaviour
 {
     public float speed = 15f;
     Vector3 position;
+    public AudioManager am;
 
     void Start()
     {
+        am.carSound.Play();
         position = transform.position;
     }
     // Update is called once per frame
@@ -29,6 +31,15 @@ public class Player : MonoBehaviour
         position.x += temp * speed * Time.deltaTime;
         position.x = Mathf.Clamp(position.x, -2.2f, 2.2f);
         transform.position = position;
+
+        if (Time.timeScale == 0)
+        {
+            am.carSound.Pause();
+        }
+        else
+        {
+            am.carSound.UnPause();
+        }
     }
     
     void OnCollisionEnter(Collision collision)
@@ -37,7 +48,9 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
             Time.timeScale = 0;
-            
+            am.carSound.Stop();
+            am.carCrash.Play();
+
         }
     }
 }
