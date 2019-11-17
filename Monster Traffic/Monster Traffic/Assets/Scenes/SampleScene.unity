@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec17e1fbeb57c5458ff5c9d7266c4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 0.4
 --- !u!64 &233257272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -826,8 +826,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4968293, y: 0.767706, z: 2.4633436}
-  m_Center: {x: -0.24841447, y: 0.32115486, z: -0.014633583}
+  m_Size: {x: 0.9944578, y: 0.767706, z: 2.4633436}
+  m_Center: {x: 0.0027711575, y: 0.32115486, z: -0.014633583}
 --- !u!1 &1407311918
 GameObject:
   m_ObjectHideFlags: 0
