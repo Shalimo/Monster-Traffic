@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Settings : MonoBehaviour
 {
-    public Slider slider;
+    public AudioMixer am;
 
-    void Update()
+    public void AudioVolume(float sliderValue)
     {
-        AudioListener.volume = slider.value;
+        am.SetFloat("masterVolume", sliderValue);
     }
 }
