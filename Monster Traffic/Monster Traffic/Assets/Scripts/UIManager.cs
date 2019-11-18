@@ -1,35 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Button[] buttons;
-    public Text scoreText;
+    public Button[] buttons;  
     public Button pause;
-    public Text GameOverText;
+    public Text scoreText;
+    public Text gameOverText;
     public Text currentScore;
-    int score;
-    bool gameOver;
+    private int score;
+    private bool gameOver;
 
-    // Start is called before the first frame update
     void Start()
     {
         score = 0;
-        //через 0 секунд каждые 0.5 секунд
         InvokeRepeating("scoreUpdate", 0f, 0.5f);
-        
     }
 
-    // Update is called once per frame
     void Update()
     {
         scoreText.text = "Score: " + score;
         currentScore.text = "Your score: " + score;
-
-
-
     }
 
     void scoreUpdate()
@@ -40,22 +31,20 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void gameOverActivated()
+    public void GameOverActivated()
     {
         gameOver = true;
-
         foreach (Button button in buttons)
         {
             button.gameObject.SetActive(true);
         }
-        GameOverText.gameObject.SetActive(true);
+        gameOverText.gameObject.SetActive(true);
         currentScore.gameObject.SetActive(true);
-
         scoreText.gameObject.SetActive(false);
         pause.gameObject.SetActive(false);
     }
 
-        public void Pause()
+    public void Pause()
     {
         if (Time.timeScale == 1)
         {
@@ -71,8 +60,7 @@ public class UIManager : MonoBehaviour
     public void Play()
     {
         Time.timeScale = 1;
-        Application.LoadLevel("SampleScene");
-        
+        Application.LoadLevel("SampleScene");   
     }
 
     public void Menu()

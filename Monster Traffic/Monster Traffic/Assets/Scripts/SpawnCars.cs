@@ -1,14 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-
-public class SpawnCars : MonoBehaviour
-
-    
+public class SpawnCars : MonoBehaviour  
 {
     public GameObject[] cars;
-    private float[] positions = { -1.86f, -0.65f, 0.59f, 1.76f };
+    private float[] positions = {-1.86f, -0.65f, 0.59f, 1.76f};
 
     void Start()
     {
@@ -21,12 +17,10 @@ public class SpawnCars : MonoBehaviour
         {
             Instantiate(
                 cars[Random.Range(0, cars.Length)],
-                new Vector3(positions[Random.Range(0, 4)], 6f, 0),
-                Quaternion.Euler(new Vector3(90, 180, 0))
+                new Vector2(positions[Random.Range(0, 4)], 6f),
+                Quaternion.Euler(new Vector2(90, 180))
                 );
-            yield return new WaitForSeconds(0.7f);
+            yield return new WaitForSeconds(0.6f);
         }
-    }
-
-    
+    }  
 }

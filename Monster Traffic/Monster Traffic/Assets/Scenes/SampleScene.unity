@@ -576,7 +576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec17e1fbeb57c5458ff5c9d7266c4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.4
+  speedTrack: 0.4
 --- !u!64 &233257272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1316,7 +1316,7 @@ GameObject:
   - component: {fileID: 550127798}
   - component: {fileID: 550127797}
   m_Layer: 5
-  m_Name: GameOverText
+  m_Name: gameOverText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1794,7 +1794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32fccd65c08a7c6488f770158c0359e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9
+  speedPlayer: 9
   am: {fileID: 418639761}
   ui: {fileID: 1796751410}
 --- !u!54 &1292891606
@@ -2228,9 +2228,9 @@ MonoBehaviour:
   - {fileID: 51034597}
   - {fileID: 1793745817}
   - {fileID: 361288035}
-  scoreText: {fileID: 750204719}
   pause: {fileID: 1452312964}
-  GameOverText: {fileID: 550127797}
+  scoreText: {fileID: 750204719}
+  gameOverText: {fileID: 550127797}
   currentScore: {fileID: 25504787}
 --- !u!4 &1796751411
 Transform:
