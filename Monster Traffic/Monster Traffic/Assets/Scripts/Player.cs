@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float speed = 15f;
     Vector3 position;
     public AudioManager am;
+    public UIManager ui;
 
     void Start()
     {
@@ -48,8 +49,11 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
             Time.timeScale = 0;
+            ui.gameOverActivated();
             am.carSound.Stop();
             am.carCrash.Play();
+           
+
 
         }
     }
