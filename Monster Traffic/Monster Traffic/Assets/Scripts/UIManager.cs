@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         score = 0;
-        InvokeRepeating("scoreUpdate", 0f, 0.5f);
+        InvokeRepeating("ScoreUpdate", 0f, 0.5f);
     }
 
     void Update()
@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour
         currentScore.text = "Your score: " + score;
     }
 
-    void scoreUpdate()
+    void ScoreUpdate()
     {
         if (!gameOver)
         {
