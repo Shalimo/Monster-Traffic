@@ -5,8 +5,13 @@ public class Settings : MonoBehaviour
 {
     public AudioMixer am;
 
-    public void AudioVolume(float sliderValue)
+    public void AudioTurnOn(float maxValue = 20f)
     {
-        am.SetFloat("masterVolume", sliderValue);
+        am.SetFloat("masterVolume", maxValue);
+    }
+
+    public void AudioTurnOff(float minValue = -80f)
+    {
+        am.SetFloat("masterVolume", minValue);
     }
 }
