@@ -18,5 +18,7 @@
 [План Тестирования](https://github.com/Shalimo/Monster-Traffic/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Test%20Plan.md)
 
 [Результаты тестирования](https://github.com/nastazys/trtpo-project-mygifts/issues/1)
+
+[Паттерны](https://github.com/Shalimo/Monster-Traffic/blob/master/Monster%20Traffic/Monster%20Traffic/Patterns.md)
                   
                   
