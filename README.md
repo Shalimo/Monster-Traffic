@@ -19,6 +19,5 @@
 
 [Результаты тестирования](https://github.com/nastazys/trtpo-project-mygifts/issues/1)
 
-[Паттерны](https://github.com/Shalimo/Monster-Traffic/blob/master/Monster%20Traffic/Monster%20Traffic/Patterns.md)
-                  
+
                   
